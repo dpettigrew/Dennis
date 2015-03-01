@@ -3,11 +3,12 @@ Swift Language Style Guide, Best Practices and Recommendations, and very much a 
 
 ---
 
+```
 DENNIS:  You're fooling yourself.  We're living in a dictatorship.
-      A self-perpetuating autocracy in which the working classes--
-
+         A self-perpetuating autocracy in which the working classes--
+         
 WOMAN:  Oh there you go, bringing class into it again.
-
+```
 ---
 
 ## Contributions
@@ -32,7 +33,7 @@ New projects must have a "Monty Python and The Holy Grail" related name (whether
 
 Example: Soothsayer (movie reference) and THGReachability (meaningful name).  The idea being along the lines of...
 ```
-SIR GALAHAD: Tell me soothsayer, what say you about network connectivity?
+GALAHAD: Tell me soothsayer, what say you about network connectivity?
 SOOTHSAYER: What connectivity?
 ```
 
@@ -60,12 +61,16 @@ Prefix only the module name, not the classes within the module.
 RANDOM PEASANT:  Ye ole Swift guide said you don't need prefixes!
 GOD:  There's 4 Swift Reachability implementations by 4 different authors that are all have the 
       same module name, 'Reachability'.  It's like those miserable Psalms-- they're so depressing.
+GOD:  So, just prefix the module name.
+ARTHUR: A blessing!
+LAUNCELOT:  A blessing from the Lord!
+GALAHAD:  God be praised!
 ```
 So... we will prefix our module names with THG to avoid this confusion and potential collision.  The contained enums/classes/structs shall not contain any prefixes.
 
 Example:
 
-THGReachability <- Module name.
-Reachability <- Class inside of module.
+THGReachability <- Module name.<br>
+Reachability <- Class inside of module.<br>
 
 ### Project Structure
