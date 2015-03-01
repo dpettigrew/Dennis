@@ -27,16 +27,6 @@ The above being said, we want to help you meet the criteria that we've set out i
 
 ## New Projects
 
-### Module/Framework?  App?
-
-If you're building a Module or Framework, you should set your project up such that any dependencies are side-by-side in the file system.
-
-Example:
-```
-\MyModule
-\ADependency // MyModule depends on this
-```
-
 ### Naming
 
 New projects must have a "Monty Python and The Holy Grail" related name (whether that's a character, a place, something one might've found in said time period, whatever, it's pretty loose), in addition to a meaningful name.
@@ -92,3 +82,20 @@ As you can see above, the top level directory is the "funny" name (KillerRabbit)
 ### Project Structure
 
 <img src="images/project_layout.png">
+
+We want to fight with Xcode as little as possible.  What you see above is more or less the stock layout that Xcode sets up.  In more source-file heavy projects, you should try to split things up logically and use matching groups and subdirectories.  I have also added a group called "Modules" where I'll keep my dependencies.  More on that later.
+
+### Dependencies
+
+#### Module/Framework?  App?
+
+If you're building a Module or Framework, you should set your project up such that any dependencies are side-by-side in the file system.
+
+Example:
+<img src="images/side_by_side.png">
+
+KillerRabbit depends on Excalibur.  Both are Modules.
+
+Keep in mind, that in this example, the "Modules" group doesn't have a subdirectory backing it.  This is intentional and the default way that Xcode works.  Dependencies should only be added as .xcodeproj files added into the project.  You'll need to configure the dependencies manually inside your Xcode project, like so.
+
+<img src="images/dependency_1.png">
