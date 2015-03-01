@@ -58,7 +58,8 @@ Prefix only the module name, not the classes within the module.
 
 ```
 RANDOM PEASANT:  Ye ole Swift guide said you don't need prefixes!
-GOD:  There's 4 Swift Reachability implementations by 4 different authors that are all have the same module name, 'Reachability'.  It's like those miserable Psalms-- they're so depressing.
+GOD:  There's 4 Swift Reachability implementations by 4 different authors that are all have the 
+      same module name, 'Reachability'.  It's like those miserable Psalms-- they're so depressing.
 ```
 So... we will prefix our module names with THG to avoid this confusion and potential collision.  The contained enums/classes/structs shall not contain any prefixes.
 
