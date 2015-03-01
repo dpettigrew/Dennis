@@ -1,5 +1,5 @@
 # Dennis
-Swift Language Style Guide, Best Practices and Recommendations, and very much a work in progress.
+Guides on contributing, Language Style Guide, Best Practices and Recommendations, and very very much a work in progress.
 
 ---
 
