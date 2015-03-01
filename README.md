@@ -74,3 +74,5 @@ THGReachability <- Module name.<br>
 Reachability <- Class inside of module.<br>
 
 ### Project Structure
+
+<img src="https://d1zjcuqflbd5k.cloudfront.net/files/acc_44006/115RU?response-content-disposition=inline;%20filename=Screen%20Shot%20on%202015-03-01%20at%2000%3A18%3A48.png&Expires=1425198011&Signature=fz8sTVZraCiqhxjWUiGQHOhUOrQTh4Ixd99UX7gZjzf-kC6T-FxkkMzRmRimkCnWkPBdy7onccuvE5SJqWdl5AW~~cjRYv3LFFoqDiUimOzc5wROqjxh1M5qHbX-vALbT9BDZ7BXFjpxStlF3Kqir2ejIr-OD1ZOppjROA2OAOk_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA">
