@@ -27,6 +27,16 @@ The above being said, we want to help you meet the criteria that we've set out i
 
 ## New Projects
 
+### Module/Framework?  App?
+
+If you're building a Module or Framework, you should set your project up such that any dependencies are side-by-side in the file system.
+
+Example:
+```
+\MyModule
+\ADependency // MyModule depends on this
+```
+
 ### Naming
 
 New projects must have a "Monty Python and The Holy Grail" related name (whether that's a character, a place, something one might've found in said time period, whatever, it's pretty loose), in addition to a meaningful name.
@@ -73,6 +83,12 @@ Example:
 THGReachability <- Module name.<br>
 Reachability <- Class inside of module.<br>
 
+### Directory Structure
+
+<img src="images/project_dir_layout.png">
+
+As you can see above, the top level directory is the "funny" name (KillerRabbit), and everything under it references the meaningful name (THGDispatch).  The easiest way to accomplish this is to start a new project in Xcode, and when asked for the name, enter your meaningful name.  Once you've done that, close the project.  Go to finder, and then rename the top-level directory that Xcode created to the "funny" name.
+
 ### Project Structure
 
-<img src="https://d1zjcuqflbd5k.cloudfront.net/files/acc_44006/115RU?response-content-disposition=inline;%20filename=Screen%20Shot%20on%202015-03-01%20at%2000%3A18%3A48.png&Expires=1425198011&Signature=fz8sTVZraCiqhxjWUiGQHOhUOrQTh4Ixd99UX7gZjzf-kC6T-FxkkMzRmRimkCnWkPBdy7onccuvE5SJqWdl5AW~~cjRYv3LFFoqDiUimOzc5wROqjxh1M5qHbX-vALbT9BDZ7BXFjpxStlF3Kqir2ejIr-OD1ZOppjROA2OAOk_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA">
+<img src="images/project_layout.png">
