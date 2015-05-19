@@ -99,3 +99,17 @@ KillerRabbit depends on Excalibur.  Both are Modules.
 Keep in mind, that in this example, the "Modules" group doesn't have a subdirectory backing it.  This is intentional and the default way that Xcode works.  Dependencies should only be added as .xcodeproj files added into the project.  You'll need to configure the dependencies manually inside your Xcode project, like so.
 
 <img src="images/dependency_1.png">
+
+#### Objective-C Project Setup
+To get this working in an Objective-C project - 
+
+Configure the dependencies as an  embedded binary 
+
+<img src="images/objc_dependency.png">
+
+Set Embedded Content Contains Swift Code in Build Settings
+
+<img src="images/objc_build_setttings.png">
+
+
+
